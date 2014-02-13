@@ -29,6 +29,12 @@ _Justification_: Not really meant to be a trick question, but helps determine if
 3.) Access 'self' from the scope in which it is declared
 4.) Be passed as an argument
 
+_Answer: Be subclassed_
 
-#What is ARC? How does it work?
+_Justification_: This one should be pretty trivial to anyone who has even a trivial understanding of blocks, an important Objective-C feature. It also weeds out those who don't know what a block is, which would raise a red flag that a candidate may be a "did the tutorial" iOS developer.
 
+### What is ARC? How does it work?
+
+*Rookie college student answer*: It allows me to write Objective-C code without retain/release.
+
+*Jedi Answer*: It is a compiler features that uses analysis from the Clang Static Analyzer to automatically inserts the proper retain/release calls. This both minimized the amount of code that needs to be written, as well as help prevent developer error.
