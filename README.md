@@ -37,4 +37,4 @@ _Justification_: This one should be pretty trivial to anyone who has even a triv
 
 *Rookie college student answer*: It allows me to write Objective-C code without retain/release.
 
-*Jedi Answer*: It is a compiler features that uses analysis from the Clang Static Analyzer to automatically inserts the proper retain/release calls. This both minimized the amount of code that needs to be written, as well as help prevent developer error.
+*Jedi Answer*: It is a compiler feature that uses analysis from the Clang Static Analyzer to automatically insert the proper retain/release calls. This both minimizes the amount of code that needs to be written, as well as helps prevent developer errors.
